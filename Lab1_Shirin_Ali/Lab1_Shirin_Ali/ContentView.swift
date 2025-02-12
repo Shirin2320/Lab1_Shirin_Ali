@@ -128,4 +128,5 @@ struct ContentView: View {
             wrongCount = 0
             attempts = 0
             isCorrect = nil
+            randomNumber = Int.random(in: 1...100)
         
