@@ -7,40 +7,40 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		907AAF8D2D5CFA8400EB302D /* PBXContainerItemProxy */ = {
+		907AAFC32D5CFBC600EB302D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 907AAF742D5CFA8300EB302D /* Project object */;
+			containerPortal = 907AAFAA2D5CFBC400EB302D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 907AAF7B2D5CFA8300EB302D;
+			remoteGlobalIDString = 907AAFB12D5CFBC400EB302D;
 			remoteInfo = Lab1_Shirin_Ali;
 		};
-		907AAF972D5CFA8400EB302D /* PBXContainerItemProxy */ = {
+		907AAFCD2D5CFBC600EB302D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 907AAF742D5CFA8300EB302D /* Project object */;
+			containerPortal = 907AAFAA2D5CFBC400EB302D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 907AAF7B2D5CFA8300EB302D;
+			remoteGlobalIDString = 907AAFB12D5CFBC400EB302D;
 			remoteInfo = Lab1_Shirin_Ali;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		907AAF7C2D5CFA8300EB302D /* Lab1_Shirin_Ali.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab1_Shirin_Ali.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		907AAF8C2D5CFA8400EB302D /* Lab1_Shirin_AliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab1_Shirin_AliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		907AAF962D5CFA8400EB302D /* Lab1_Shirin_AliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab1_Shirin_AliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		907AAFB22D5CFBC400EB302D /* Lab1_Shirin_Ali.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab1_Shirin_Ali.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		907AAFC22D5CFBC600EB302D /* Lab1_Shirin_AliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab1_Shirin_AliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		907AAFCC2D5CFBC600EB302D /* Lab1_Shirin_AliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab1_Shirin_AliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		907AAF7E2D5CFA8300EB302D /* Lab1_Shirin_Ali */ = {
+		907AAFB42D5CFBC500EB302D /* Lab1_Shirin_Ali */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Lab1_Shirin_Ali;
 			sourceTree = "<group>";
 		};
-		907AAF8F2D5CFA8400EB302D /* Lab1_Shirin_AliTests */ = {
+		907AAFC52D5CFBC600EB302D /* Lab1_Shirin_AliTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Lab1_Shirin_AliTests;
 			sourceTree = "<group>";
 		};
-		907AAF992D5CFA8400EB302D /* Lab1_Shirin_AliUITests */ = {
+		907AAFCF2D5CFBC600EB302D /* Lab1_Shirin_AliUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Lab1_Shirin_AliUITests;
 			sourceTree = "<group>";
@@ -48,21 +48,21 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		907AAF792D5CFA8300EB302D /* Frameworks */ = {
+		907AAFAF2D5CFBC400EB302D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		907AAF892D5CFA8400EB302D /* Frameworks */ = {
+		907AAFBF2D5CFBC600EB302D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		907AAF932D5CFA8400EB302D /* Frameworks */ = {
+		907AAFC92D5CFBC600EB302D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,22 +72,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		907AAF732D5CFA8300EB302D = {
+		907AAFA92D5CFBC400EB302D = {
 			isa = PBXGroup;
 			children = (
-				907AAF7E2D5CFA8300EB302D /* Lab1_Shirin_Ali */,
-				907AAF8F2D5CFA8400EB302D /* Lab1_Shirin_AliTests */,
-				907AAF992D5CFA8400EB302D /* Lab1_Shirin_AliUITests */,
-				907AAF7D2D5CFA8300EB302D /* Products */,
+				907AAFB42D5CFBC500EB302D /* Lab1_Shirin_Ali */,
+				907AAFC52D5CFBC600EB302D /* Lab1_Shirin_AliTests */,
+				907AAFCF2D5CFBC600EB302D /* Lab1_Shirin_AliUITests */,
+				907AAFB32D5CFBC400EB302D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		907AAF7D2D5CFA8300EB302D /* Products */ = {
+		907AAFB32D5CFBC400EB302D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				907AAF7C2D5CFA8300EB302D /* Lab1_Shirin_Ali.app */,
-				907AAF8C2D5CFA8400EB302D /* Lab1_Shirin_AliTests.xctest */,
-				907AAF962D5CFA8400EB302D /* Lab1_Shirin_AliUITests.xctest */,
+				907AAFB22D5CFBC400EB302D /* Lab1_Shirin_Ali.app */,
+				907AAFC22D5CFBC600EB302D /* Lab1_Shirin_AliTests.xctest */,
+				907AAFCC2D5CFBC600EB302D /* Lab1_Shirin_AliUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,134 +95,134 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		907AAF7B2D5CFA8300EB302D /* Lab1_Shirin_Ali */ = {
+		907AAFB12D5CFBC400EB302D /* Lab1_Shirin_Ali */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 907AAFA02D5CFA8400EB302D /* Build configuration list for PBXNativeTarget "Lab1_Shirin_Ali" */;
+			buildConfigurationList = 907AAFD62D5CFBC600EB302D /* Build configuration list for PBXNativeTarget "Lab1_Shirin_Ali" */;
 			buildPhases = (
-				907AAF782D5CFA8300EB302D /* Sources */,
-				907AAF792D5CFA8300EB302D /* Frameworks */,
-				907AAF7A2D5CFA8300EB302D /* Resources */,
+				907AAFAE2D5CFBC400EB302D /* Sources */,
+				907AAFAF2D5CFBC400EB302D /* Frameworks */,
+				907AAFB02D5CFBC400EB302D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				907AAF7E2D5CFA8300EB302D /* Lab1_Shirin_Ali */,
+				907AAFB42D5CFBC500EB302D /* Lab1_Shirin_Ali */,
 			);
 			name = Lab1_Shirin_Ali;
 			packageProductDependencies = (
 			);
 			productName = Lab1_Shirin_Ali;
-			productReference = 907AAF7C2D5CFA8300EB302D /* Lab1_Shirin_Ali.app */;
+			productReference = 907AAFB22D5CFBC400EB302D /* Lab1_Shirin_Ali.app */;
 			productType = "com.apple.product-type.application";
 		};
-		907AAF8B2D5CFA8400EB302D /* Lab1_Shirin_AliTests */ = {
+		907AAFC12D5CFBC600EB302D /* Lab1_Shirin_AliTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 907AAFA32D5CFA8400EB302D /* Build configuration list for PBXNativeTarget "Lab1_Shirin_AliTests" */;
+			buildConfigurationList = 907AAFD92D5CFBC600EB302D /* Build configuration list for PBXNativeTarget "Lab1_Shirin_AliTests" */;
 			buildPhases = (
-				907AAF882D5CFA8400EB302D /* Sources */,
-				907AAF892D5CFA8400EB302D /* Frameworks */,
-				907AAF8A2D5CFA8400EB302D /* Resources */,
+				907AAFBE2D5CFBC600EB302D /* Sources */,
+				907AAFBF2D5CFBC600EB302D /* Frameworks */,
+				907AAFC02D5CFBC600EB302D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				907AAF8E2D5CFA8400EB302D /* PBXTargetDependency */,
+				907AAFC42D5CFBC600EB302D /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				907AAF8F2D5CFA8400EB302D /* Lab1_Shirin_AliTests */,
+				907AAFC52D5CFBC600EB302D /* Lab1_Shirin_AliTests */,
 			);
 			name = Lab1_Shirin_AliTests;
 			packageProductDependencies = (
 			);
 			productName = Lab1_Shirin_AliTests;
-			productReference = 907AAF8C2D5CFA8400EB302D /* Lab1_Shirin_AliTests.xctest */;
+			productReference = 907AAFC22D5CFBC600EB302D /* Lab1_Shirin_AliTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		907AAF952D5CFA8400EB302D /* Lab1_Shirin_AliUITests */ = {
+		907AAFCB2D5CFBC600EB302D /* Lab1_Shirin_AliUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 907AAFA62D5CFA8400EB302D /* Build configuration list for PBXNativeTarget "Lab1_Shirin_AliUITests" */;
+			buildConfigurationList = 907AAFDC2D5CFBC600EB302D /* Build configuration list for PBXNativeTarget "Lab1_Shirin_AliUITests" */;
 			buildPhases = (
-				907AAF922D5CFA8400EB302D /* Sources */,
-				907AAF932D5CFA8400EB302D /* Frameworks */,
-				907AAF942D5CFA8400EB302D /* Resources */,
+				907AAFC82D5CFBC600EB302D /* Sources */,
+				907AAFC92D5CFBC600EB302D /* Frameworks */,
+				907AAFCA2D5CFBC600EB302D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				907AAF982D5CFA8400EB302D /* PBXTargetDependency */,
+				907AAFCE2D5CFBC600EB302D /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				907AAF992D5CFA8400EB302D /* Lab1_Shirin_AliUITests */,
+				907AAFCF2D5CFBC600EB302D /* Lab1_Shirin_AliUITests */,
 			);
 			name = Lab1_Shirin_AliUITests;
 			packageProductDependencies = (
 			);
 			productName = Lab1_Shirin_AliUITests;
-			productReference = 907AAF962D5CFA8400EB302D /* Lab1_Shirin_AliUITests.xctest */;
+			productReference = 907AAFCC2D5CFBC600EB302D /* Lab1_Shirin_AliUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		907AAF742D5CFA8300EB302D /* Project object */ = {
+		907AAFAA2D5CFBC400EB302D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					907AAF7B2D5CFA8300EB302D = {
+					907AAFB12D5CFBC400EB302D = {
 						CreatedOnToolsVersion = 16.2;
 					};
-					907AAF8B2D5CFA8400EB302D = {
+					907AAFC12D5CFBC600EB302D = {
 						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 907AAF7B2D5CFA8300EB302D;
+						TestTargetID = 907AAFB12D5CFBC400EB302D;
 					};
-					907AAF952D5CFA8400EB302D = {
+					907AAFCB2D5CFBC600EB302D = {
 						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 907AAF7B2D5CFA8300EB302D;
+						TestTargetID = 907AAFB12D5CFBC400EB302D;
 					};
 				};
 			};
-			buildConfigurationList = 907AAF772D5CFA8300EB302D /* Build configuration list for PBXProject "Lab1_Shirin_Ali" */;
+			buildConfigurationList = 907AAFAD2D5CFBC400EB302D /* Build configuration list for PBXProject "Lab1_Shirin_Ali" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 907AAF732D5CFA8300EB302D;
+			mainGroup = 907AAFA92D5CFBC400EB302D;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 907AAF7D2D5CFA8300EB302D /* Products */;
+			productRefGroup = 907AAFB32D5CFBC400EB302D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				907AAF7B2D5CFA8300EB302D /* Lab1_Shirin_Ali */,
-				907AAF8B2D5CFA8400EB302D /* Lab1_Shirin_AliTests */,
-				907AAF952D5CFA8400EB302D /* Lab1_Shirin_AliUITests */,
+				907AAFB12D5CFBC400EB302D /* Lab1_Shirin_Ali */,
+				907AAFC12D5CFBC600EB302D /* Lab1_Shirin_AliTests */,
+				907AAFCB2D5CFBC600EB302D /* Lab1_Shirin_AliUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		907AAF7A2D5CFA8300EB302D /* Resources */ = {
+		907AAFB02D5CFBC400EB302D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		907AAF8A2D5CFA8400EB302D /* Resources */ = {
+		907AAFC02D5CFBC600EB302D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		907AAF942D5CFA8400EB302D /* Resources */ = {
+		907AAFCA2D5CFBC600EB302D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,21 +232,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		907AAF782D5CFA8300EB302D /* Sources */ = {
+		907AAFAE2D5CFBC400EB302D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		907AAF882D5CFA8400EB302D /* Sources */ = {
+		907AAFBE2D5CFBC600EB302D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		907AAF922D5CFA8400EB302D /* Sources */ = {
+		907AAFC82D5CFBC600EB302D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,20 +256,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		907AAF8E2D5CFA8400EB302D /* PBXTargetDependency */ = {
+		907AAFC42D5CFBC600EB302D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 907AAF7B2D5CFA8300EB302D /* Lab1_Shirin_Ali */;
-			targetProxy = 907AAF8D2D5CFA8400EB302D /* PBXContainerItemProxy */;
+			target = 907AAFB12D5CFBC400EB302D /* Lab1_Shirin_Ali */;
+			targetProxy = 907AAFC32D5CFBC600EB302D /* PBXContainerItemProxy */;
 		};
-		907AAF982D5CFA8400EB302D /* PBXTargetDependency */ = {
+		907AAFCE2D5CFBC600EB302D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 907AAF7B2D5CFA8300EB302D /* Lab1_Shirin_Ali */;
-			targetProxy = 907AAF972D5CFA8400EB302D /* PBXContainerItemProxy */;
+			target = 907AAFB12D5CFBC400EB302D /* Lab1_Shirin_Ali */;
+			targetProxy = 907AAFCD2D5CFBC600EB302D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		907AAF9E2D5CFA8400EB302D /* Debug */ = {
+		907AAFD42D5CFBC600EB302D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -332,7 +332,7 @@
 			};
 			name = Debug;
 		};
-		907AAF9F2D5CFA8400EB302D /* Release */ = {
+		907AAFD52D5CFBC600EB302D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -388,7 +388,7 @@
 			};
 			name = Release;
 		};
-		907AAFA12D5CFA8400EB302D /* Debug */ = {
+		907AAFD72D5CFBC600EB302D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -416,7 +416,7 @@
 			};
 			name = Debug;
 		};
-		907AAFA22D5CFA8400EB302D /* Release */ = {
+		907AAFD82D5CFBC600EB302D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -444,7 +444,7 @@
 			};
 			name = Release;
 		};
-		907AAFA42D5CFA8400EB302D /* Debug */ = {
+		907AAFDA2D5CFBC600EB302D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,7 +462,7 @@
 			};
 			name = Debug;
 		};
-		907AAFA52D5CFA8400EB302D /* Release */ = {
+		907AAFDB2D5CFBC600EB302D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,7 +480,7 @@
 			};
 			name = Release;
 		};
-		907AAFA72D5CFA8400EB302D /* Debug */ = {
+		907AAFDD2D5CFBC600EB302D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -496,7 +496,7 @@
 			};
 			name = Debug;
 		};
-		907AAFA82D5CFA8400EB302D /* Release */ = {
+		907AAFDE2D5CFBC600EB302D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -515,43 +515,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		907AAF772D5CFA8300EB302D /* Build configuration list for PBXProject "Lab1_Shirin_Ali" */ = {
+		907AAFAD2D5CFBC400EB302D /* Build configuration list for PBXProject "Lab1_Shirin_Ali" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				907AAF9E2D5CFA8400EB302D /* Debug */,
-				907AAF9F2D5CFA8400EB302D /* Release */,
+				907AAFD42D5CFBC600EB302D /* Debug */,
+				907AAFD52D5CFBC600EB302D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		907AAFA02D5CFA8400EB302D /* Build configuration list for PBXNativeTarget "Lab1_Shirin_Ali" */ = {
+		907AAFD62D5CFBC600EB302D /* Build configuration list for PBXNativeTarget "Lab1_Shirin_Ali" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				907AAFA12D5CFA8400EB302D /* Debug */,
-				907AAFA22D5CFA8400EB302D /* Release */,
+				907AAFD72D5CFBC600EB302D /* Debug */,
+				907AAFD82D5CFBC600EB302D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		907AAFA32D5CFA8400EB302D /* Build configuration list for PBXNativeTarget "Lab1_Shirin_AliTests" */ = {
+		907AAFD92D5CFBC600EB302D /* Build configuration list for PBXNativeTarget "Lab1_Shirin_AliTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				907AAFA42D5CFA8400EB302D /* Debug */,
-				907AAFA52D5CFA8400EB302D /* Release */,
+				907AAFDA2D5CFBC600EB302D /* Debug */,
+				907AAFDB2D5CFBC600EB302D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		907AAFA62D5CFA8400EB302D /* Build configuration list for PBXNativeTarget "Lab1_Shirin_AliUITests" */ = {
+		907AAFDC2D5CFBC600EB302D /* Build configuration list for PBXNativeTarget "Lab1_Shirin_AliUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				907AAFA72D5CFA8400EB302D /* Debug */,
-				907AAFA82D5CFA8400EB302D /* Release */,
+				907AAFDD2D5CFBC600EB302D /* Debug */,
+				907AAFDE2D5CFBC600EB302D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 907AAF742D5CFA8300EB302D /* Project object */;
+	rootObject = 907AAFAA2D5CFBC400EB302D /* Project object */;
 }
