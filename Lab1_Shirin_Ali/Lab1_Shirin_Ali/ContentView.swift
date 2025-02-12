@@ -73,5 +73,18 @@ struct ContentView: View {
         }
     }
     func checkAnswer(isPrimeSelected: Bool) {
-            let primeStatus = isPrime(randomNumber)
-            isCorrect = (primeStatus == isPrimeSelected)
+        let primeStatus = isPrime(randomNumber)
+        isCorrect = (primeStatus == isPrimeSelected)
+        
+        if isCorrect! {
+            correctCount += 1
+        } else {
+            wrongCount += 1
+        }
+        
+        attempts += 1
+        if attempts >= 10 {
+            showAlert = true
+            stopTimer()
+        }
+        
