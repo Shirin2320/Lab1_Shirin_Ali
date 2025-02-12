@@ -126,4 +126,6 @@ struct ContentView: View {
     func resetGame() {
             correctCount = 0
             wrongCount = 0
+            attempts = 0
+            isCorrect = nil
         
