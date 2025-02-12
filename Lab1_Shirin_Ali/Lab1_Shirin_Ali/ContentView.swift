@@ -129,4 +129,7 @@ struct ContentView: View {
             attempts = 0
             isCorrect = nil
             randomNumber = Int.random(in: 1...100)
+            startTimer()
+            }
+        }
         
