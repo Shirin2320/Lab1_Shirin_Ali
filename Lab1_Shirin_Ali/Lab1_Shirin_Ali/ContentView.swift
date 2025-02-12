@@ -109,5 +109,11 @@ struct ContentView: View {
                 if attempts >= 10 {
                     showAlert = true
                     stopTimer()
+                } else {
+                    randomNumber = Int.random(in: 1...100)
                 }
+            }
+        }
+    
+    
         
