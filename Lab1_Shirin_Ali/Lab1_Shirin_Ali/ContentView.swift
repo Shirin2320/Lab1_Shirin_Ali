@@ -8,34 +8,54 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var randomNumber: Int = Int.random(in: 1...100)
+    @State private var isCorrect: Bool? = nil
+    @State private var correctCount: Int = 0
+    @State private var wrongCount: Int = 0
+    @State private var attempts: Int = 0
+    @State private var showAlert: Bool = false
+    @State private var timer: Timer? = nil
+    
     var body: some View {
         VStack {
             Text("Is this number prime?")
                 .font(.largeTitle)
                 .padding()
             
-            Text("0")  // Placeholder for random number
+            Text("\(randomNumber)")
                 .font(.system(size: 80, weight: .bold))
                 .padding()
             
             HStack {
-                Button("Prime") {}
-                    .font(.title)
-                    .padding()
-                    .frame(width: 120, height: 50)
-                    .background(Color.blue)
-                    .foregroundColor(.white)
-                    .cornerRadius(10)
+                Button(action: {
+                    checkAnswer(isPrimeSelected: true)
+                }) {
+                    Text("Prime")
+                        .font(.title)
+                        .padding()
+                        .frame(width: 120, height: 50)
+                        .background(Color.blue)
+                        .foregroundColor(.white)
+                        .cornerRadius(10)
+                }
                 
-                Button("Not Prime") {}
-                    .font(.title)
-                    .padding()
-                    .frame(width: 120, height: 50)
-                    .background(Color.red)
-                    .foregroundColor(.white)
-                    .cornerRadius(10)
+                Button(action: {
+                    checkAnswer(isPrimeSelected: false)
+                }) {
+                    Text("Not Prime")
+                        .font(.title)
+                        .padding()
+                        .frame(width: 120, height: 50)
+                        .background(Color.red)
+                        .foregroundColor(.white)
+                        .cornerRadius(10)
+                }
             }
             .padding()
+            
+            if let correct = isCorrect {
+                Text(correct ? "✅" : "❌")
+                    .font(.system(size: 80))
+                    .padding()
+            }
         }
-    }
-}
