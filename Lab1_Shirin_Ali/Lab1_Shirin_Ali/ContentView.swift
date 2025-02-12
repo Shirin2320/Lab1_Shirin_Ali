@@ -123,5 +123,7 @@ struct ContentView: View {
             stopTimer()
             startTimer()
         }
-    
+    func resetGame() {
+            correctCount = 0
+            wrongCount = 0
         
