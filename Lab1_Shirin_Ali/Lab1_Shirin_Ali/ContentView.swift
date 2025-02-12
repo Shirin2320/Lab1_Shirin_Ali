@@ -115,5 +115,9 @@ struct ContentView: View {
             }
         }
     
-    
+    func stopTimer() {
+            timer?.invalidate()
+            timer = nil
+        }
+
         
