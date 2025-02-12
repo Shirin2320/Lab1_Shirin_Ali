@@ -10,15 +10,32 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Is this number prime?")
+                .font(.largeTitle)
+                .padding()
+            
+            Text("0")  // Placeholder for random number
+                .font(.system(size: 80, weight: .bold))
+                .padding()
+            
+            HStack {
+                Button("Prime") {}
+                    .font(.title)
+                    .padding()
+                    .frame(width: 120, height: 50)
+                    .background(Color.blue)
+                    .foregroundColor(.white)
+                    .cornerRadius(10)
+                
+                Button("Not Prime") {}
+                    .font(.title)
+                    .padding()
+                    .frame(width: 120, height: 50)
+                    .background(Color.red)
+                    .foregroundColor(.white)
+                    .cornerRadius(10)
+            }
+            .padding()
         }
-        .padding()
     }
-}
-
-#Preview {
-    ContentView()
 }
