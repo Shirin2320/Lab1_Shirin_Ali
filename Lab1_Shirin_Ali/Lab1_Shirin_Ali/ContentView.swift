@@ -102,4 +102,12 @@ struct ContentView: View {
             return true
         }
     
+    func startTimer() {
+            timer = Timer.scheduledTimer(withTimeInterval: 5, repeats: true) { _ in
+                wrongCount += 1
+                attempts += 1
+                if attempts >= 10 {
+                    showAlert = true
+                    stopTimer()
+                }
         
