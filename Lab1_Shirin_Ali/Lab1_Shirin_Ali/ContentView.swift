@@ -60,15 +60,18 @@ struct ContentView: View {
             }
         }
         .alert(isPresented: $showAlert) {
-                    Alert(
-                        title: Text("Results"),
-                        message: Text("Correct: \(correctCount)\nWrong: \(wrongCount)"),
-                        dismissButton: .default(Text("OK")) {
-                            resetGame()
-                        }
-                    )
+            Alert(
+                title: Text("Results"),
+                message: Text("Correct: \(correctCount)\nWrong: \(wrongCount)"),
+                dismissButton: .default(Text("OK")) {
+                    resetGame()
                 }
-                .onAppear {
-                    startTimer()
-                }
-            }
+            )
+        }
+        .onAppear {
+            startTimer()
+        }
+    }
+    func checkAnswer(isPrimeSelected: Bool) {
+            let primeStatus = isPrime(randomNumber)
+            isCorrect = (primeStatus == isPrimeSelected)
