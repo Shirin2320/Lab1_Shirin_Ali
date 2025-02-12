@@ -132,4 +132,5 @@ struct ContentView: View {
             startTimer()
             }
         }
+    struct ContentView_Previews: PreviewProvider {
         
