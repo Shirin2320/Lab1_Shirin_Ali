@@ -59,3 +59,16 @@ struct ContentView: View {
                     .padding()
             }
         }
+        .alert(isPresented: $showAlert) {
+                    Alert(
+                        title: Text("Results"),
+                        message: Text("Correct: \(correctCount)\nWrong: \(wrongCount)"),
+                        dismissButton: .default(Text("OK")) {
+                            resetGame()
+                        }
+                    )
+                }
+                .onAppear {
+                    startTimer()
+                }
+            }
